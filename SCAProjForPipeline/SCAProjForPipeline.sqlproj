@@ -196,4 +196,14 @@
     <None Include="Programmable Objects\dbo\Views\v_Cats.sql" />
     <None Include="Schema-Model\dbo\Tables\Cats.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="Password1">
+      <DefaultValue>vagrant</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="Password2">
+      <DefaultValue>!@#tkomp</DefaultValue>
+      <Value>$(SqlCmdVar__2)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
 </Project>
