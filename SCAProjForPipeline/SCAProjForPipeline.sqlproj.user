@@ -3,5 +3,9 @@
   <PropertyGroup>
     <TargetConnectionString>Data Source=172.16.1.70;Initial Catalog=md_dev;Persist Security Info=False;User ID=sa;Password=;Pooling=False;Multiple Active Result Sets=False;Encrypt=False;Trust Server Certificate=False</TargetConnectionString>
     <TargetDatabase>md_dev</TargetDatabase>
+    <StartupScript>(Blank)</StartupScript>
+    <StartAction>StartNone</StartAction>
+    <SqlCmdVar__1>vagrant</SqlCmdVar__1>
+    <SqlCmdVar__2>!@#tkomp</SqlCmdVar__2>
   </PropertyGroup>
 </Project>
